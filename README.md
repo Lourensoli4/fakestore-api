@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# Fake Store API Application
+
+## General Info
+
+This application displays a list of products, which is recieved from an API, [FakeStore API](https://fakestoreapi.com/), and displays the products, and their respective info, on cards. You're able to filter by category, add and remove from cart, and view additional details about the item.
+
+![FakeStoreAPI](./public/fakestore-api.gif)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
