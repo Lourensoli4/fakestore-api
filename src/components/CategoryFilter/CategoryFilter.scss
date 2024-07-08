@@ -1,0 +1,39 @@
+.category-filter {
+  // Remove default styles
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+
+  // Add custom styles
+  select {
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--color-beige);
+    border-radius: 10px;
+    background-color: var(--color-whiteish);
+    color: var(--color-blue-darker);
+    font-size: 16px;
+    padding: 8px 12px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+  }
+
+  select:focus {
+    border-color: var(--color-blue-darker);
+  }
+
+  select:hover {
+    border-color: var(--color-blue-lighter);
+  }
+
+  option {
+    text-transform: capitalize;
+  }
+}

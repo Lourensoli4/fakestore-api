@@ -1,0 +1,47 @@
+.button {
+  padding: 8px 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  &--beige {
+    background-color: var(--color-whiteish);
+    color: var(--color-blue-darker);
+
+    &:hover {
+      background-color: white;
+    }
+  }
+
+  &--blue {
+    background-color: var(--color-blue-darker);
+    color: var(--color-whiteish);
+
+    &:hover {
+      background-color: var(--color-blue-lighter);
+    }
+  }
+
+  &--red,
+  &--red-close {
+    background-color: red;
+    color: var(--color-whiteish);
+
+    &:hover {
+      background-color: lightcoral;
+    }
+  }
+
+  &--red-close {
+    display: flex;
+    padding: 3px;
+  }
+}

@@ -1,0 +1,21 @@
+.tooltip {
+  &__copy {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    transform: translateY(-40px);
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1;
+    white-space: wrap;
+    margin-right: 10px;
+    opacity: 0.8;
+  }
+}
+
+.tooltip:hover .tooltip__copy {
+  display: flex;
+}

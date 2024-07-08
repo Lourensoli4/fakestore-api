@@ -1,0 +1,17 @@
+.App {
+  background-color: var(--color-whiteish);
+  color: var(--color-blue-darker);
+  min-height: 100vh;
+  padding: 0 20px;
+
+  h1,
+  h2,
+  h3,
+  p {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 10px;
+  }
+}
